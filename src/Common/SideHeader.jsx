@@ -2,7 +2,7 @@ import React from 'react'
 
 const SideHeader = () => {
   return (
-  <section className='block md:hidden'>
+  <section className='hidden'>
     <h1>SideHeader</h1>
   </section>
   )

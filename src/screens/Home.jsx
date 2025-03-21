@@ -8,7 +8,7 @@ const Home = () => {
 const [menu , setMenu]  = useState(false)
 
   return (
-<>
+<div className='max-w-full flex flex-col overflow-hidden items-center justify-center'>
 
 <Meta  />
 <SmoothScroll>
@@ -17,7 +17,7 @@ const [menu , setMenu]  = useState(false)
 <HomeIndex  />
 </SmoothScroll>
 
-</>
+</div>
   )
 }
 
